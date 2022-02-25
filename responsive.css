@@ -1,0 +1,179 @@
+/*For Tablet max-width 1000px*/
+@media all and (max-width: 1000px) {
+
+    .header-right li{
+        float: right;
+        list-style: none;
+        padding:0px 15px 0px 10px;
+        position: relative;
+        right: 0;
+      }
+      
+      .header-right a {
+        line-height: 65px;
+        padding: 0 10px;
+        color:#b3aeb5;
+      }
+
+    .info {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .info h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about {
+        height: 500px;
+    }
+
+    .about img {
+        float: none;
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .facility {
+        width: 50%;
+    }
+}
+
+/*For Smartphone max-width 670px*/
+@media all and (max-width: 670px) {
+
+    .header-left {
+        float: left;
+        position: relative;
+        left: 0px;
+    }
+
+    .header-right {
+        display: none;
+      }
+
+      span.menu-icon {
+        display: block;
+      }
+
+    
+      header{
+        height: 50px;
+      }
+    
+      .logo {
+        width: 100px;
+        margin: 10px 10px;
+      }
+    
+      .btn {
+        width: 100%;
+      }
+    
+      .top-wrapper {
+        height: 500px;
+      }
+    
+      .top-wrapper h3 {
+        font-size: 15px;
+      }
+    
+      .top-wrapper h1 {
+        font-size: 47px;
+      }
+    
+      button {
+        width:120px;
+        height: 35px;
+        color:#ffe7d7;
+        font-size: 16px;
+        background: rgb(29, 27, 27);
+        border: 0;
+        border-radius: 50px;
+        outline: none;
+        margin-top:30px;
+        font-family: "Avenir Next", sans-serif;
+        text-align: center;
+        cursor: pointer;
+        box-sizing: border-box;
+        display:inline-block;
+        transition: transform 0.5s;
+      }
+      
+      .btn:active{
+        position: relative;
+        top: 3px;
+        bottom: 2px;
+        box-shadow:none;
+      }
+    
+      .image-resize {
+        width: 200px;
+        height: auto;
+        position: relative;
+        margin: 20px -50px;
+      }
+    
+      .image-resize-2 {
+        width: 300px;
+        height: auto;
+        position: relative;
+        margin: -10px -50px;
+      }
+
+    .about {
+        height: 550px;
+    }
+
+    .about-us {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about-us h1 {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .about-us p {
+        padding: 0 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .animasi {
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    
+
+    .facility {
+        width: 100%;
+    }
+
+    footer {
+        height: 155px;
+    }
+
+    .footer-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-left {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .buttom {
+        text-align: center;
+        float: none;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+}
