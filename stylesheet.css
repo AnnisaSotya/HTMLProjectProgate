@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Avenir Next", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  div {
+    display:block
+  }
+
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*Header CSS*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color:rgba(29, 27, 27, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  left: 0;
+}
+
+.header-right li{
+  float: right;
+  list-style: none;
+  padding:0px 15px 0px 10px;
+  position: relative;
+  right: 0;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color:#b3aeb5;
+}
+
+.pertama:hover {
+  background-color: rgba(97, 91, 86, 1);
+  transition: all 0.5s;
+}
+.kedua:hover {
+  background-color: rgba(97, 91, 86, 1);
+  transition: all 0.5s;
+}
+.ketiga:hover {
+  background-color: rgba(97, 91, 86, 1);
+  transition: all 0.5s;
+}
+.keempat:hover{
+  background-color: rgba(97, 91, 86, 1);
+  transition: all 0.5s;
+}
+
+span.menu-icon {
+  color: #b3aeb5;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  position: relative;
+  right: 10px;
+  top: -60px;
+}
+
+.logo {
+  width: 140px;
+  margin: 10px 10px;
+}
+
+
+/*Top CSS*/
+
+.top-wrapper {
+  text-align: center;
+  padding: 120px 50px;
+  height: 518px;
+  margin: 0 auto;
+  background-color: #ffe7d7;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  max-width: 1170px;
+  width: 100%;
+  font-family: "Avenir Next", sans-serif;
+}
+
+.container h3 {
+  font-size: 25px;
+}
+
+.container h1 {
+  font-size: 60px;
+}
+
+button {
+  text-align: center;
+  position:relative;
+  top:50px;
+  width:130px;
+  height:40px;
+  color:#ffe7d7;
+  font-size: 17px;
+  background: rgb(29, 27, 27);
+  border: 0;
+  border-radius: 50px;
+  outline: none;
+  margin-top:30px;
+  font-family: "Avenir Next", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display:inline-block;
+  transition: transform 0.5s;
+}
+
+.btn:active{
+  position: relative;
+  top: 3px;
+  bottom: 2px;
+  box-shadow:none;
+}
+
+.image-resize {
+  float: left;
+  position:relative;
+  margin: -40px -50px;
+  width: 330px;
+  height: 280px;
+}
+
+.image-resize-2{
+  float: right;
+  position:relative;
+  margin: -70px -50px;
+  width: 420px;
+  height: 300px;
+}
+
+/*ABOUT CSS*/
+
+.about {
+  background-color: #FFEDDB;
+  height: 400px;
+}
+
+.about-us {
+  float: left;
+  width: 60%;
+}
+
+.about-us h1 {
+  color: #B3541E;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.about-us p {
+  color: #876445;
+  padding: 20px 0 30px 30px;
+}
+
+.animasi {
+  float: right;
+  position: relative;
+  right: 50px;
+  top: 50px;
+  animation: shake 1.5s linear 0s infinite;
+}
+
+
+.btn-about {
+  border: 2px solid #D06224;
+  background-color: #FFEDDB;
+  color: #D06224;
+  font-size: 16px;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.25s;
+  opacity: 0.8;
+  padding: 5px;
+}
+
+.btn-about:hover {
+  opacity: 1;
+}
+
+
+/* facility CSS*/
+
+  .facilities-wrapper {
+      padding-bottom: 80px;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-bottom: 100px;
+      height: fit-content;
+      text-align: center;
+  }
+
+  .heading {
+      padding-top: 80px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+  }
+
+  .heading h1 {
+      text-align: left;
+      color: #B3541E;
+  }
+  
+  .facility {
+      float: left;
+      width: 33%;
+      text-align: center;
+      height: fit-content;
+  }
+
+  .facility-icon img {
+      width: 200px;
+      margin-top: 100px;
+  }
+
+  .facility-desc {
+      display: inline-block;
+      width: 80%;
+      height: 120px;
+      margin: 10px;
+  }
+
+  .facility-desc p {
+      margin: 20px 0;
+      color: #876445;
+  }
+
+  .facility-desc h3 {
+    color: #B3541E;
+  }
+
+  /*footer CSS*/
+
+  .footer-container {
+    color: #b3aeb5;
+    font-size: 12px;
+    float:left;
+    padding-left:3px;
+  }
+
+  .footer-left{
+    float:right;
+    color: #b3aeb5;
+    font-size: 12px;
+    padding-right:3px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+    top:0px;
+    
+  }
+  .buttom{
+    float:right;
+  }
+  
+  .buttom span {
+    color: #b3aeb5;
+  }
+
+  .btn-facebook{
+    padding-right:60px;
+  }
+  .btn-instagram{
+    padding-right:60px;
+  }
+
+  /*Animation*/
+
+  @keyframes shake {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(5deg);}
+    50% {transform: rotate(0deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
