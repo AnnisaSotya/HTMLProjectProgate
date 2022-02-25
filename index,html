@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Lore of The Books</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <div class="Header-logo">
+                <div class="header-left">
+                    <img class="logo" src="https://i.ibb.co/SdHTXVF/Header-logo-TLOB.png">
+                </div>
+            </div>
+            <span class="fa fa-bars menu-icon"></span>
+            <div class="header-right">
+                <ul>
+                <li>
+                    <a href="#" class="pertama">Activities</a>
+                </li>
+                <li >
+                    <a href="#" class="kedua">Comunities</a>
+                </li>
+                <li >
+                    <a href="#" class="ketiga">Shop</a>
+                </li>
+                <li >
+                    <a href="#" class="keempat">Contact Us</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+      </header>
+    <!--TOP-->
+    <div class="top-wrapper">
+        <div class="container">
+          <h3>Welcome to</h3>
+          <h1>THE LORE OF BOOKS</h1> 
+        </div>
+        <div class="btn">
+          <button type="btn">Explore</button>
+        </div>
+        <div class="img-container">
+            <div class="img">
+                <img class="img-responsive image-resize" src="https://i.ibb.co/19kmBtz/pablo-198.png">
+            </div>
+
+            <div  class="img-person">
+                <img class="img-responsive image-resize-2" src="https://i.ibb.co/gjY86PC/pablo-209.png">
+            </div>
+        </div>
+    </div>
+<!--ABOUT-->
+    <div class="about">
+        <div class="container">
+            <div class="about-us">
+                <h1>About Us</h1>
+                <p>The Lore of The Books is a bookstore where you can find your dream book from various genres and authors. You can explore a wide variety of reading sources from fiction to nonfiction.This shop is friendly for all ages, from children, teenagers, to adults. Don't worry, we take care of your safety and make sure everyone gets the book they want.This shop was created with the dedication of book lovers and the desire to share so that everyone can also have the same experience when buying their favorite book and ensure that it is the right book. Find your book, find your soulmate.</p>
+                <button class="btn-about">Read More...</button>
+            </div>
+            <div class="animasi">
+                <img src="https://cdn.discordapp.com/attachments/890180925894316082/946571643675873350/biology.png" alt="book" width="300">
+            </div>
+        </div>
+    </div>
+    <!--Facilities-->
+    <div class="facilities-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h1>Our Facilities</h1>
+            </div>
+            <div class="facilities">
+                <div class="facility">
+                    <div class="facility-icon">
+                        <img src="https://cdn.discordapp.com/attachments/890180925894316082/946507023124693012/desktop.png">
+                    </div>
+                    <div class="facility-desc">
+                        <h3>Smart Classroom</h3>
+                        <p> 
+                            All our classroom are equipped with E-Boards and Audio-Visual aids for 21st century learning teaching and learning.
+                        </p>
+                    </div>
+                    <div class="facility-btn">
+                        <button class="btn-about">Read More...</button>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">
+                        <img src="https://cdn.discordapp.com/attachments/890180925894316082/946506414858309682/library.png">
+                    </div>
+                    <div class="facility-desc">
+                        <h3>Advanced Library</h3>
+                        <p>
+                            Libraries in all our campuses contains books, CD-ROMs, DVDs that cover a spectrum of subjects and satifies the students' urge to learn.
+                        </p>
+                    </div>
+                    <div class="facility-btn">
+                        <button class="btn-about">Read More...</button>
+                    </div>
+                </div>
+                <div class="facility">
+                    <div class="facility-icon">
+                        <img src="https://cdn.discordapp.com/attachments/890180925894316082/946507477678174278/microscope.png">
+                    </div>
+                    <div class="facility-desc">
+                        <h3>Science Zones</h3>
+                        <p>
+                            Concepts taught in classroom are reinforced at our science zone, which is well-equipped to work on academic problems.
+                        </p>
+                    </div>
+                    <div class="facility-btn">
+                        <button class="btn-about">Read More...</button>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <img src="https://i.ibb.co/SdHTXVF/Header-logo-TLOB.png" style="width: 120px">
+                <p >Find your book, find your soulmate.</p>
+            </div>
+            <div class="footer-left">
+                <p>Find Us On Our Social Media</p>
+                <div class="buttom">
+                    <a href="#" class="btn-facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="#" class="btn-instagram"><span class="fa fa-instagram"></span></a>
+                    <a href="#" class="btn-twitter"><span class="fa fa-twitter"></span></a>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
